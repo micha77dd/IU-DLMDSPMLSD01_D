@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / Frontend / Cypress
+src/node_modules/
+src/cypress/
+src/cypress-temp/
+src/cypress.config.js
+src/package.json
+src/package-lock.json
+
+# Tests
+src/tests/
+src/pytest.ini
+
+# Lokale Daten (sollten über Volumes gemountet werden oder zur Laufzeit generiert)
+src/data/*.db
+src/data/models/*.pkl
+
+# Skripte
+src/start_frontend.sh

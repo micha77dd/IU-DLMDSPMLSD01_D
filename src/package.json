@@ -1,0 +1,18 @@
+{
+  "name": "Pinguinklassifizierer E2E",
+  "version": "1.0.0",
+  "description": "End to End Testing für Pinguinklassifizierer",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Michael Krätzschmar-König",
+  "devDependencies": {
+    "cypress": "^15.14.2"
+  }
+}
